@@ -1,0 +1,141 @@
+body {
+	color: #000;
+
+	font-family: "Roboto Mono";
+	font-weight: 300;
+
+	font-size: 16px;
+}
+
+body.intro {
+	color: #fff;
+	background-color: #000;
+}
+
+.intro-background {
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	width: 100%;
+	height: 100vh;
+
+	p {
+		font-size: 5em;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		font-weight: 300;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	menu {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		padding-top: 20px;
+
+		li {
+			margin-bottom: 20px;
+		}
+
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		a:visited, a:active {
+			text-decoration: none;
+		}
+	}
+
+}
+
+.intro-content {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+
+	.intro-piece {
+		position: absolute;
+
+		width: 32vw;
+		height: 18vw;
+
+		border: 1px solid rgba(255,255,255,0)
+	}
+
+	.intro-piece-video {
+		background-color: #000;
+		img {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			height: 100%;
+		}
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+		}
+	}
+
+	.intro-piece-video:hover {
+		border: 1px solid #fff;
+
+		img {
+			visibility: hidden;
+		}
+	}
+	
+	.intro-piece-text {
+		border-radius: 50%;
+		border: 1px solid #000;
+		width: 25vh;
+		height: 25vh;
+		padding: 0px 2vw;
+		background-color: #fff;
+		color: #000;
+		text-align: center;
+		font-weight: 400;
+		// vertically centered
+		p {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+
+	.intro-piece.piece-1 {
+		top: 10vh;
+		left: 5%;
+	}
+
+	.intro-piece.piece-2 {
+		top: 10vh;
+		right: 5%;
+	}
+
+	.intro-piece.piece-3 {
+		top: 40vh;
+		left: 5%;
+	}
+
+	.intro-piece.piece-4 {
+		top: 40vh;
+		right: 5%;
+	}
+
+}

@@ -1,0 +1,19 @@
+{
+  "name": "daliborknapp",
+  "version": "1.0.0",
+  "description": "Dalibor Knapp portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrej Sykora <as@andrejsykora.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "marked": "^0.3.5",
+    "slug": "^0.9.1"
+  }
+}
