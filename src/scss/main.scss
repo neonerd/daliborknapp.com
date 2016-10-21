@@ -139,3 +139,38 @@ body.intro {
 	}
 
 }
+
+.dk-container {
+	padding: 0px 20px;
+}
+
+.dk-menu {
+	display: block;
+	text-align: right;
+
+	menu {
+		display: inline-block;
+		list-style-type: none;
+		padding-right: 20px;
+
+		li {
+			display: block;
+			line-height: 42px;
+			font-size: 36px;
+			font-weight: bold;
+			padding-bottom: 20px;
+		}
+	}
+
+	.dk-menu-mobile-icon {
+		display: inline-block;
+		font-size: 40px;
+
+		color: #fff;
+		text-decoration: none;
+		vertical-align: top;
+		padding-top: 10px;
+
+		cursor: pointer;
+	}
+}
