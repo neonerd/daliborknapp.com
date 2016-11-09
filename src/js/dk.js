@@ -4,6 +4,11 @@ var getRandomNumberBetween = function (from, to) {
 
 var dk = window.dk = {}
 
+dk.showhide = function (el) {
+	if ($(el).hasClass('hide')) $(el).removeClass('hide')
+	else $(el).addClass('hide')
+}
+
 dk.initIntroPieces = function () {
 
 	var n = 0
