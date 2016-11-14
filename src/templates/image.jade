@@ -1,0 +1,40 @@
+doctype
+html
+	
+	include ./header
+
+	body.cv
+
+		.container-fluid.dk-container
+
+			.row
+
+				.col-xs-6
+					h1 Dalibor Knapp
+
+				.col-xs-6.dk-menu
+					include ./menu
+					a.dk-menu-mobile-icon(onclick="dk.showhide('#mobile_menu')") &#9776;
+
+			.row
+
+				.col-xs-12
+
+					.dk-content
+
+						.dk-content-important.dk-content-offset
+							= image.name.toUpperCase()
+							br
+							= image.meta.join(' / ')
+
+						.dk-content-media.dk-content-offset
+							each media in image.media
+
+								if(media.type=='image')
+									img(src='/media/' + media.source, alt="media file")
+
+						.dk-content-text.dk-content-offset
+
+							!= text
+
+		include ./footer

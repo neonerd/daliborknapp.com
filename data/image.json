@@ -1,0 +1,38 @@
+{
+	"en": [
+		{
+			"name": "Default Settings: Cinema for Two Viewers",
+			"meta": ["video installation", "HD", "two tv screens", "headphones", "3:20 min", "loop"],
+			"synopsis": "default_settings_en",
+			"media": [
+				{"type":"image", "source": "osvit.png"}
+			]
+		},
+		{
+			"name": "The Set",
+			"synopsis": "the_set_en",
+			"meta": ["2014", "video", "HD", "feature film", "8:20 min"],
+			"media": [
+				{"type":"image", "source": "osvit.png"}
+			]
+		},
+		{
+			"name": "Film Animal",
+			"synopsis": "film_animal_en",
+			"meta": ["2014", "audio installation", "MP3", "mp3 player", "3:58 min"],
+			"media": [
+				{"type":"image", "source": "osvit.png"}
+			]
+		}
+	],
+	"cz": [
+		{
+			"name": "The Set",
+			"synopsis": "the_set_cz",
+			"meta": ["2013", "videoesej", "4 min", "HD"],
+			"media": [
+				{"type":"image", "source": "osvit.png"}
+			]
+		}
+	]
+}

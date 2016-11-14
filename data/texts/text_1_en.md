@@ -1,0 +1,1 @@
+A universal and neverending story about Great future and about universal mechanism which is used against the Great future. Mine. Yours. Ours. The text in the loop is a dialogue at the same time. Technology is presenting the story, but technology itself is out of presence. New technology brings the future, the old one refers to the past.

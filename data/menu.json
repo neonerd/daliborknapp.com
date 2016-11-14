@@ -1,0 +1,12 @@
+{
+	"en": {
+		"obraz": "/en/index.html",
+		"text": "/en/index.html",
+		"cv": "/en/cv.html"
+	},
+	"cz": {
+		"obraz": "/cz/index.html",
+		"text": "/cz/index.html",
+		"cv": "/cz/cv.html"
+	}
+}

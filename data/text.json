@@ -1,0 +1,16 @@
+{
+	"en": [
+		{
+			"name": "Text 1",
+			"type": "Esej",
+			"text": "text_1_en"
+		}
+	],
+	"cz": [
+		{
+			"name": "Text 1",
+			"type": "Esej",
+			"text": "text_1_cz"
+		}
+	]
+}

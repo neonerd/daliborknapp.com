@@ -1,26 +1,47 @@
 doctype
 html
-	head
-
-		meta(charset="utf-8")
 	
-		link(rel="stylesheet",href="./css/bootstrap.min.css")
-		link(rel="stylesheet",href="./css/main.css")
-		link(rel="stylesheet",href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,400italic,500,500italic,700,100italic,100,700italic&subset=latin,latin-ext")
+	include ./header
 
 	body.cv
 
-		div.intro-background
-			div.container-fluid
-				div.row
+		.container-fluid.dk-container
 
-					div.col-md-1.col-md-push-11
-						menu
-							li
-								a(href="javascript: void(0)", onclick="dk.switchIntroPieces('home')") home
-							li
-								a(href="javascript: void(0)", onclick="dk.switchIntroPieces('text')") text
-							li
-								a(href="javascript: void(0)", onclick="dk.switchIntroPieces('video')") obraz
-							li
-								a(href="/cv.html") cv
+			.row
+
+				.col-xs-6
+					h1 Dalibor Knapp
+
+				.col-xs-6.dk-menu
+					include ./menu
+					a.dk-menu-mobile-icon(onclick="dk.showhide('#mobile_menu')") &#9776;
+
+			.row
+
+				.col-xs-12
+					.dk-content
+						p.dk-content-important.dk-content-offset
+							| PhDr. Dalibor Knapp
+							br
+							| *1985, Prague, Czechoslovakia
+						p.dk-content-important.dk-content-offset
+							| dalibor.knapp@gmail.copm
+							br
+							| +420 737 759 100
+
+						p.dk-content-offset
+							= cv.bio
+
+						each rows, section in cv.sections
+
+							h3= section
+
+							table.dk-content-basicTable
+								each row in rows
+									tr
+										td= row[0]
+										td= row[1]
+
+
+
+		include ./footer
