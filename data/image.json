@@ -13,7 +13,7 @@
 			"synopsis": "the_set_en",
 			"meta": ["2014", "video", "HD", "feature film", "8:20 min"],
 			"media": [
-				{"type":"image", "source": "osvit.png"}
+				{"type":"vimeo", "source": "http://vimeo.com"}
 			]
 		},
 		{
