@@ -1,0 +1,5 @@
+language: node_js
+node_js:
+  - "7"
+after_success:
+    "curl --ftp-create-dirs -T dist -u $FTP_USER:$FTP_PASSWORD ftp://ftp.daliborknapp.com/daliborknapp.com/WWWRoot"
