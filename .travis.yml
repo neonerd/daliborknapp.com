@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "7"
 after_success:
-    "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://ftp.daliborknapp.com/daliborknapp.com/WWWRoot"
+    "find dist -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://ftp.daliborknapp.com/daliborknapp.com/WWWRoot \;"
