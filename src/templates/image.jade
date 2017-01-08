@@ -11,7 +11,7 @@ html
 
 				.col-xs-6
 					h1 
-						a(href="/") Dalibor Knapp
+						a(href="/" + lang) Dalibor Knapp
 
 				.col-xs-6.dk-menu
 					include ./menu
@@ -28,14 +28,26 @@ html
 							br
 							= image.meta.join(' / ')
 
+						// primary media
 						.dk-content-media.dk-content-offset
-							each media in image.media
+							- var primaryMedia = image.media[0]
 
-								if(media.type=='image')
-									img(src='/media/' + media.source, alt="media file")
+								if(primaryMedia.type=='image')
+									img(src='/media/' + primaryMedia.source, alt="media file")
+								if(primaryMedia.type=='vimeo')
+									iframe(src="https://player.vimeo.com/video/" + primaryMedia.source, frameborder="0", webkitallowfullscreen, mozallowfullscreen, allowfullscreen)
 
 						.dk-content-text.dk-content-offset
 
 							!= text
+
+						// secondary media
+						.dk-content-media.dk-content-offset
+							each media in image.media.slice(1)
+								if(media.type=='image')
+									img(src='/media/' + media.source, alt="media file")
+								if(media.type=='vimeo')
+									iframe(src="https://player.vimeo.com/video/" + media.source, frameborder="0", webkitallowfullscreen, mozallowfullscreen, allowfullscreen)
+
 
 		include ./footer

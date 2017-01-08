@@ -10,7 +10,8 @@ html
 			.row
 
 				.col-xs-6
-					h1 Dalibor Knapp
+					h1 
+						a(href="/" + lang) Dalibor Knapp
 
 				.col-xs-6.dk-menu
 					include ./menu
@@ -30,7 +31,7 @@ html
 							| +420 737 759 100
 
 						p.dk-content-offset
-							= cv.bio
+							!= text
 
 						each rows, section in cv.sections
 

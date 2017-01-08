@@ -63,8 +63,10 @@ gulp.task('html', function() {
 	gulp.src('src/templates/cv.jade')
 	.pipe(jade({
 		locals:  {
+			lang: 'cz',
 			cv: data_cv['cz'],
-			menu: data_menu['cz']
+			menu: data_menu['cz'],
+			text: marked(fs.readFileSync('./data/texts/' + data_cv['cz']['bio'] + '.md', 'utf-8'))
 		}
 	}))
 	.pipe(gulp.dest('dist/cz'))
@@ -73,8 +75,10 @@ gulp.task('html', function() {
 	gulp.src('src/templates/cv.jade')
 	.pipe(jade({
 		locals:  {
+			lang: 'en',
 			cv: data_cv['en'],
-			menu: data_menu['en']
+			menu: data_menu['en'],
+			text: marked(fs.readFileSync('./data/texts/' + data_cv['en']['bio'] + '.md', 'utf-8'))
 		}
 	}))
 	.pipe(gulp.dest('dist/en'))
@@ -156,6 +160,7 @@ gulp.task('media', function () {
 gulp.task('watch', function () {
 
 	gulp.watch('src/**/*.*', ['default'])
+	gulp.watch('data/**/*.*', ['html'])
 
 })
 

@@ -5,7 +5,24 @@
 			"meta": ["video installation", "HD", "two tv screens", "headphones", "3:20 min", "loop"],
 			"synopsis": "default_settings_en",
 			"media": [
-				{"type":"image", "source": "osvit.png"}
+				{"type":"image", "source": "default_settings/M_def5.png"},
+				{"type":"image", "source": "default_settings/1.jpg"},
+				{"type":"image", "source": "default_settings/2.jpg"},
+				{"type":"image", "source": "default_settings/3.jpg"},
+				{"type":"image", "source": "default_settings/4.jpg"},
+				{"type":"image", "source": "default_settings/5.jpg"},
+				{"type":"image", "source": "default_settings/6.jpg"},
+				{"type":"image", "source": "default_settings/7.jpg"},
+				{"type":"image", "source": "default_settings/8.jpg"},
+				{"type":"image", "source": "default_settings/def1.png"},
+				{"type":"image", "source": "default_settings/def2.png"},
+				{"type":"image", "source": "default_settings/def3.png"},
+				{"type":"image", "source": "default_settings/def4.png"},
+				{"type":"image", "source": "default_settings/def6.png"},
+				{"type":"image", "source": "default_settings/default_settings_1.JPG"},
+				{"type":"image", "source": "default_settings/default_settings_2.JPG"},
+				{"type":"image", "source": "default_settings/default_settings_3.JPG"},
+				{"type":"image", "source": "default_settings/defult_settings_4.JPG"}
 			]
 		},
 		{
@@ -13,7 +30,12 @@
 			"synopsis": "the_set_en",
 			"meta": ["2014", "video", "HD", "feature film", "8:20 min"],
 			"media": [
-				{"type":"vimeo", "source": "http://vimeo.com"}
+				{"type":"image", "source": "set/m_set4.png"},
+				{"type":"image", "source": "set/set0.png"},
+				{"type":"image", "source": "set/set1.png"},
+				{"type":"image", "source": "set/set2.png"},
+				{"type":"image", "source": "set/set3.png"},
+				{"type":"image", "source": "set/set5.png"}
 			]
 		},
 		{
@@ -21,17 +43,174 @@
 			"synopsis": "film_animal_en",
 			"meta": ["2014", "audio installation", "MP3", "mp3 player", "3:58 min"],
 			"media": [
-				{"type":"image", "source": "osvit.png"}
+				{"type":"image", "source": "film_zvire/M_posed2.jpg"},
+				{"type":"image", "source": "film_zvire/posed1.jpg"},
+				{"type":"image", "source": "film_zvire/posed3.jpg"}
+			]
+		},
+		{
+			"name": "Your Th. My Th.",
+			"synopsis": "your_th_en",
+			"meta": ["2014", "video installation", "SD vcr", "tv", "vhs cassettes", "videotape loop"],
+			"media": [
+				{"type": "vimeo", "source": "87681062"},
+				{"type": "image", "source": "your_th/ythmth2.jpg"},
+				{"type": "image", "source": "your_th/ythmth3.jpg"}
+
+			]
+		},
+		{
+			"name": "Exposure",
+			"synopsis": "exposure",
+			"meta": ["2013", "video essay", "HD", "4:00 min"],
+			"media": [
+				{"type":"image", "source": "osvit/M_osvit3.jpg"},
+				{"type":"image", "source": "osvit/osvit1.jpg"},
+				{"type":"image", "source": "osvit/osvit2.jpg"},
+				{"type":"image", "source": "osvit/osvit4.jpg"},
+				{"type":"image", "source": "osvit/osvit5.jpg"}
+			]
+		},
+		{
+			"name": "This is Image / This is Language",
+			"synopsis": "this_is_image",
+			"meta": ["2012", "video essay", "SD", "6:39 min"],
+			"media": [
+				{"type":"vimeo", "source": "59836896"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj1.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj2.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj3.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj4.png"}
+			]
+		},
+		{
+			"name": "During the Projection",
+			"synopsis": "during_the_projection",
+			"meta": ["2012", "video", "SD", "beamers", "dvd players", "headphones", "steel", "wood", "interactive video installation"],
+			"media": [
+				{"type":"vimeo", "source": "42902868"},
+				{"type":"image", "source": "behem_projekce/poo11.jpg"},
+				{"type":"image", "source": "behem_projekce/poo2.jpg"}
+			]
+		},
+		{
+			"name": "Applause",
+			"synopsis": "applause",
+			"meta": ["2011", "video performance", "SD", "4:48 min"],
+			"media": [
+				{"type":"vimeo", "source": "42266718"},
+				{"type":"image", "source": "aplaus/aplaus1.jpg"},
+				{"type":"image", "source": "aplaus/aplaus2.jpg"},
+				{"type":"image", "source": "aplaus/aplaus3.jpg"},
+				{"type":"image", "source": "aplaus/aplaus4.jpg"},
+				{"type":"image", "source": "aplaus/aplaus5.jpg"}
 			]
 		}
 	],
 	"cz": [
 		{
+			"name": "Default Settings: Kino pro dva diváky",
+			"meta": ["video instalace", "HD", "2 tv obrazovky", "sluchátka", "3:20 min", "smyčka"],
+			"synopsis": "default_settings_cz",
+			"media": [
+				{"type":"image", "source": "default_settings/M_def5.png"},
+				{"type":"image", "source": "default_settings/1.jpg"},
+				{"type":"image", "source": "default_settings/2.jpg"},
+				{"type":"image", "source": "default_settings/3.jpg"},
+				{"type":"image", "source": "default_settings/4.jpg"},
+				{"type":"image", "source": "default_settings/5.jpg"},
+				{"type":"image", "source": "default_settings/6.jpg"},
+				{"type":"image", "source": "default_settings/7.jpg"},
+				{"type":"image", "source": "default_settings/8.jpg"},
+				{"type":"image", "source": "default_settings/def1.png"},
+				{"type":"image", "source": "default_settings/def2.png"},
+				{"type":"image", "source": "default_settings/def3.png"},
+				{"type":"image", "source": "default_settings/def4.png"},
+				{"type":"image", "source": "default_settings/def6.png"},
+				{"type":"image", "source": "default_settings/default_settings_1.JPG"},
+				{"type":"image", "source": "default_settings/default_settings_2.JPG"},
+				{"type":"image", "source": "default_settings/default_settings_3.JPG"},
+				{"type":"image", "source": "default_settings/defult_settings_4.JPG"}
+			]
+		},
+		{
 			"name": "The Set",
 			"synopsis": "the_set_cz",
-			"meta": ["2013", "videoesej", "4 min", "HD"],
+			"meta": ["2014", "video", "HD", "hraný film", "8:20 min"],
 			"media": [
-				{"type":"image", "source": "osvit.png"}
+				{"type":"image", "source": "set/m_set4.png"},
+				{"type":"image", "source": "set/set0.png"},
+				{"type":"image", "source": "set/set1.png"},
+				{"type":"image", "source": "set/set2.png"},
+				{"type":"image", "source": "set/set3.png"},
+				{"type":"image", "source": "set/set5.png"}
+			]
+		},
+		{
+			"name": "Film Zvíře",
+			"synopsis": "film_animal_cz",
+			"meta": ["2014", "audio instalace", "MP3", "mp3 přehrávač", "sluchátka", "3:58 min"],
+			"media": [
+				{"type":"image", "source": "film_zvire/M_posed2.jpg"},
+				{"type":"image", "source": "film_zvire/posed1.jpg"},
+				{"type":"image", "source": "film_zvire/posed3.jpg"}
+			]
+		},
+		{
+			"name": "Your Th. My Th.",
+			"synopsis": "your_th_cz",
+			"meta": ["2014", "video instalace", "SD", "tv", "vhs kazety", "videopásek smyčka"],
+			"media": [
+				{"type": "vimeo", "source": "87681062"},
+				{"type": "image", "source": "your_th/ythmth2.jpg"},
+				{"type": "image", "source": "your_th/ythmth3.jpg"}
+			]
+		},
+		{
+			"name": "Osvit",
+			"synopsis": "osvit",
+			"meta": ["2013", "videoesej", "HD", "4:00 min"],
+			"media": [
+				{"type":"image", "source": "osvit/M_osvit3.jpg"},
+				{"type":"image", "source": "osvit/osvit1.jpg"},
+				{"type":"image", "source": "osvit/osvit2.jpg"},
+				{"type":"image", "source": "osvit/osvit4.jpg"},
+				{"type":"image", "source": "osvit/osvit5.jpg"}
+			]
+		},
+		{
+			"name": "Toto je obraz / Toto je jazyk",
+			"synopsis": "toto_je_jazyk",
+			"meta": ["2012", "videoesej", "SD", "6:39 min"],
+			"media": [
+				{"type":"vimeo", "source": "59836896"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj1.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj2.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj3.png"},
+				{"type":"image", "source": "toto_je_obraz/tjotjj4.png"}
+			]
+		},
+		{
+			"name": "Během Projekce",
+			"synopsis": "behem_projekce",
+			"meta": ["2012", "video", "SD", "projektory", "dvd přehrávače", "sluchátka", "ocel", "dřevo", "interaktivní video instalace"],
+			"media": [
+				{"type":"vimeo", "source": "42902868"},
+				{"type":"image", "source": "behem_projekce/poo11.jpg"},
+				{"type":"image", "source": "behem_projekce/poo2.jpg"}
+			]
+		},
+		{
+			"name": "Aplaus",
+			"synopsis": "aplaus",
+			"meta": ["2011", "video performance", "SD", "4:48 min"],
+			"media": [
+				{"type":"vimeo", "source": "42266718"},
+				{"type":"image", "source": "aplaus/aplaus1.jpg"},
+				{"type":"image", "source": "aplaus/aplaus2.jpg"},
+				{"type":"image", "source": "aplaus/aplaus3.jpg"},
+				{"type":"image", "source": "aplaus/aplaus4.jpg"},
+				{"type":"image", "source": "aplaus/aplaus5.jpg"}
 			]
 		}
 	]

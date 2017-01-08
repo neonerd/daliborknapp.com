@@ -1,21 +1,119 @@
 {
 	"en": {
-		"bio": "Dalibor Knapp je autorem videoesejí, textů a instalací. Ve své práci se zabývá sociální a kulturní vrstvou reality a zkoumá konstrukce různých jazyků, které o ní vypráví. Společným rysem těchto děl je vždy přítomná otázka lidského poznání. Dalibor vystudoval Teorii kultury na Filozofické fakultě Univerzity Karlovy v Praze (PhDr.), nyní studuje Centrum audiovizuálních studií na FAMU. V roce 2013 navštěvoval Lensbased class profesorky Hito Steyerl na Universität der Künste v Berlíně.",
+		"bio": "bio_en",
 		"sections": {
-			"Vzdělání": [
-				["2013", "PhDr. / Teorie kultury / FFUK / Praha"],
-				["od 2010", "Centrum audiovizuálních studií / FAMU / Praha"],
-				["2005 - 2010", "Mgr. / Teorie kultury / FFUK / Praha"]
+			"Education": [
+				["2013", "PhDr. / Department of Cultural studies / FFUK / Prague"],
+				["od 2010", "Centre for Audiovisual studies / FAMU / Prague"],
+				["2005 - 2010", "Mgr. / Department of Cultural studies / FFUK / Prague"]
+			],
+			"Study Internships": [
+				["2016", "New media atelier / Tomáš Svoboda / AVU / Prague"],
+				["2013", "Lensbased class / prof. Hito Steyerl / UDK / Berlin"]
+			],
+			"Work Internships": [
+				["2015", "Köken Ergun / Istanbul"],
+				["2013", "Clemens von Wedemeyer / Berlin"]
+			],
+			"Residencies": [
+				["2016", "International Dresden Summer Academy for Visual Arts / Dresden"],
+				["2014", "Rezidence Artsalon S / Prague"],
+				["2014", "Posedy, hunters and animal paths / Kravín / Hranice u Malče"]
+			],
+			"Solo Exhibitions": [
+				["2016", "Default settings: cinema for two viewers / Center for Contemporary Arts Prague / Galerie Jelení, Prague"]
+			],
+			"Group Exhibitions": [
+				["2016", "Stip(p)visite / Runde Ecke, Riesa Efau, Dresden"],
+				["2016", "No Maps / Vlamms Cultuurhuis De Brakke Grond, Amsterdam"],
+				["2015", "Subversive tactics / Czech Centre, New York"],
+				["2015", "Public House / Meet Factory, Prague"],
+				["2015", "Cas / Galerie Avu, Prague"],
+				["2014", "High seats, hunters and animal paths / Kravín Rural Arts, Hranice u Malče"],
+				["2014", "On Repeat / Berlinskej model, Prague"],
+				["2014", "CAS. What is it? / Galerie Futura, Prague"],
+				["2013", "Klauzury / Gamu, Prague"],
+				["2012", "Pražská nádraží nevyužitá / Galerie Jaroslava Fragnera, Prague"],
+				["2012", "Pokus — omyl — oprava / City surfer office, Prague"]
+			],
+			"Screenings & Festivals (selection)": [
+				["2016", "Marienbad Film Festival / Mariánské Lázně, Czech Republic"],
+				["2015", "Videomedeja, Novi Sad, Serbia"],
+				["2015", "Vienna Independent Shorts, Wien, Austria"],
+				["2015", "Eurovideo, San Sebastian, Sarajevo, Skopje, Kaliningrad, Liege, Mons, Europe"],
+				["2014", "6th Cairo Video Festival, Cairo, Egypt"],
+				["2014", "Student Cuts Film Festival, Maribor, Slovenia"],
+				["2014", "Cinema Checo Contemporâneo, Lisbon, Portugal"],
+				["2013", "Echoes of Echoes, French institut, Prague, Czech Republic"],
+				["2013", "Famufest, Prague, Czech Republic"],
+				["2013", "Echoes of Fascinations, Studio Béla, Prague, Czech Republic"],
+				["2013", "Jihlava International Documentary Film Festival, Jihlava, Czech Republic"],
+				["2012", "Famufest, Prague, Czech Republic"],
+				["2012", "Films of Famu, New York, United States"],
+				["2012", "Scope session #14, NTK, Berlin, Germany"],
+				["2012", "Fiskulet festival, Tvrz Holešice, Czech Republic"]
+			],
+			"Credits": [
+				["2013", "„Living Figures Dying“ / found footage research / author Clemens von Wedemeyer, exhibition The Cast, MAXXI, Rome"]
 			]
 		}
 	},
 	"cz": {
-		"bio": "Dalibor Knapp je autorem videoesejí, textů a instalací. Ve své práci se zabývá sociální a kulturní vrstvou reality a zkoumá konstrukce různých jazyků, které o ní vypráví. Společným rysem těchto děl je vždy přítomná otázka lidského poznání. Dalibor vystudoval Teorii kultury na Filozofické fakultě Univerzity Karlovy v Praze (PhDr.), nyní studuje Centrum audiovizuálních studií na FAMU. V roce 2013 navštěvoval Lensbased class profesorky Hito Steyerl na Universität der Künste v Berlíně.",
+		"bio": "bio_cz",
 		"sections": {
-			"Vzdělání": [
-				["2013", "PhDr. / Teorie kultury / FFUK / Praha"],
+			"VZDĚLÁNÍ": [
+				["2013", "PhDr. / Teorie kultury / FFUK / Praha "],
 				["od 2010", "Centrum audiovizuálních studií / FAMU / Praha"],
 				["2005 - 2010", "Mgr. / Teorie kultury / FFUK / Praha"]
+			],
+			"STUDIJNÍ STÁŽE": [
+				["2016", "Ateliér Nových médií / Tomáš Svoboda / AVU / Praha"],
+				["2013", "Lensbased class / prof. Hito Steyerl / UDK / Berlin"]
+			],
+			"PRACOVNÍ STÁŽE": [
+				["2015", "Köken Ergun / Istanbul"],
+				["2013", "Clemens von Wedemeyer / Berlin"]
+			],
+			"REZIDENCE": [
+				["2016", "International Dresden Summer Academy for Visual Arts / Dresden"],
+				["2014", "Rezidence Artsalon S / Praha"],
+				["2014", "Posedy, lovci a zvířecí stezky / Kravín / Hranice u Malče "]
+			],
+			"SAMOSTATNÉ VÝSTAVY": [
+				["2016", "Default settings: cinema for two viewers / Center for Contemporary Arts Praha / Galerie Jelení, Praha"]
+			],
+			"SKUPINOVÉ VÝSTAVY": [
+				["2016", "Stip(p)visite / Runde Ecke, Riesa Efau, Dresden"],
+				["2016", "No Maps / Vlamms Cultuurhuis De Brakke Grond, Amsterdam"],
+				["2015", "Subversive tactics / České centrum, New York"],
+				["2015", "Veřejný dům / Meet Factory, Praha"],
+				["2015", "Cas / Galerie Avu, Praha"],
+				["2014", "Posedy, lovci a zvířecí stezky / Kravín Rural Arts, Hranice u Malče"],
+				["2014", "On Repeat / Berlinskej model, Praha"],
+				["2014", "CAS. Co to je? / Galerie Futura, Praha"],
+				["2013", "Klauzury / Gamu, Praha"],
+				["2012", "Pražská nádraží nevyužitá / Galerie Jaroslava Fragnera, Praha"],
+				["2012", "Pokus — omyl — oprava / City surfer office, Praha"]
+			],
+			"PROJEKCE & FESTIVALY (výběr) ": [
+				["2016", "Marienbad Film Festival / Mariánské Lázně, Česká republika"],
+				["2015", "Videomedeja, Novi Sad, Srbsko"],
+				["2015", "Vienna Independent Shorts, Vídeň, Rakousko"],
+				["2015", "Eurovideo, San Sebastian, Sarajevo, Skopje, Kaliningrad, Liege, Mons, Europe"],
+				["2014", "6th Cairo Video Festival, Káhira, Egypt"],
+				["2014", "Student Cuts Film Festival, Maribor, Slovinsko"],
+				["2014", "Cinema Checo Contemporâneo, Lisabon, Portugalsko"],
+				["2013", "Echoes of Echoes, French institut, Praha, Česká republika"],
+				["2013", "Famufest, Praha, Česká republika"],
+				["2013", "Echoes of Fascinations, Studio Béla, Praha, Česká republika"],
+				["2013", "Mezinárodní festival dokumentárních filmů, Jihlava, Česká republika"],
+				["2012", "Famufest, Praha, Česká republika"],
+				["2012", "Filmy FAMU, New York, United States"],
+				["2012", "Scope session #14, NTK, Berlín, Německo"],
+				["2012", "Fiskulet festival, Tvrz Holešice, Česká republika"]
+			],
+			"SPOLUPRÁCE": [
+				["2013", "„Living Figures Dying“ / found footage research / author Clemens von Wedemeyer, exhibition The Cast, MAXXI, Rome"]
 			]
 		}
 	}
