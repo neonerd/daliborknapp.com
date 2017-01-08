@@ -4,8 +4,8 @@
   "description": "Dalibor Knapp portfolio",
   "main": "index.js",
   "scripts": {
-   "test": "echo 1",
-   "build": "gulp"
+    "test": "echo 1",
+    "build": "gulp"
   },
   "author": "Andrej Sykora <as@andrejsykora.com>",
   "license": "ISC",
@@ -14,7 +14,10 @@
     "gulp-jade": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.1",
+    "gulp-util": "^3.0.8",
     "marked": "^0.3.5",
-    "slug": "^0.9.1"
+    "minimist": "^1.2.0",
+    "slug": "^0.9.1",
+    "vinyl-ftp": "^0.5.0"
   }
 }

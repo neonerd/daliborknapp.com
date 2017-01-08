@@ -166,3 +166,22 @@ gulp.task('watch', function () {
 
 gulp.task('dev', ['default', 'watch'])
 gulp.task('default', ['css', 'html', 'js', 'media'])
+
+/* DEPLOYMENT */
+var ftp = require('vinyl-ftp')
+var gutil = require('gulp-util')
+var minimist = require('minimist')
+var args = minimist(process.argv.slice(2))
+
+gulp.task('deploy', function() {
+  var remotePath = '/v008688a/daliborknapp.com/WWWRoot/'
+  var conn = ftp.create({
+    host: 'ftp.daliborknapp.com',
+    user: args.user,
+    password: args.password,
+    log: gutil.log
+  })
+  gulp.src('dist/**/*.*')
+    .pipe(conn.newer(remotePath))
+    .pipe(conn.dest(remotePath))
+})
