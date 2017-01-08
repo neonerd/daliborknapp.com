@@ -1,6 +1,6 @@
 {
   "name": "daliborknapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dalibor Knapp portfolio",
   "main": "index.js",
   "scripts": {
